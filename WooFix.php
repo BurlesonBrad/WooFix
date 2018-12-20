@@ -37,7 +37,7 @@ if (
 
   } else{
 
-  echo "<div id='jwp-warning' class='notice notice-warning'><p><strong>" . __("Temporary WooCommerce Fix - Please oRemember to deactivate this plugin Before you update WooCommerce to a newer version.", 'jwp_woo') .
+  echo "<div id='jwp-warning' class='notice notice-warning'><p><strong>" . __("Temporary WooCommerce Fix - Please Remember to deactivate this plugin Before you update WooCommerce to a newer version.", 'jwp_woo') .
             '<a href="https://github.com/woocommerce/woocommerce/issues/22271">' . __("Github Issue tracking &rarr; WooCommerce", 'jwp_woo') . '</a>.' . "</strong></p></div>";
 
     if(version_compare(get_option( 'woocommerce_version' ),"3.5.2","<=") && version_compare(get_bloginfo( 'version' ),"5.0.2","=") ){
